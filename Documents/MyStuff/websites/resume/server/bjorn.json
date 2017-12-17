@@ -1,0 +1,13 @@
+{
+  "Name":"Bjorn C Reyes",
+  "Phone":"832-767-8692",
+  "Email":"reyes.bjorn@gmail.com",
+  "Address":{
+      "street_number":"217",
+      "street_name": "Washington St.",
+      "city":"Cumberland",
+      "state":"Maryland",
+      "country":"United States ofAmerica"
+  }
+
+}

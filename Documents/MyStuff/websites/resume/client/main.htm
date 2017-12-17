@@ -1,0 +1,24 @@
+<div ng-controller ="textArea">
+  <p>Name: <input type="text" ng-model="name"></p>
+  <header>
+    <img src = {{portrait}} width = "150px" height = auto >
+    <p ng-bind="name">{{name}}</p>
+  </header>
+  <nav>
+    <p> Link here another here
+        <button type="button" ng-click="textClick()">change text area</button>
+        <button type="button" ng-click="educationClick()">change text area</button>
+
+        ButtonHere
+    </p>
+  </nav>
+  <p>
+   This is the main page
+  </p>
+  <textarea rows = 5 cols = 50>
+    {{first_name}}
+    {{last_name}}
+    {{full_name()}}
+    {{text}}
+  </textarea>
+</div>
