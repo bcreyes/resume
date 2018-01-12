@@ -36,3 +36,12 @@ app.controller("textArea", function($scope, $location){
     $location.path('/alternate');
   }
 });
+
+app.controller('data', function($scope,$http){
+  $http.get("localhost:8002/bjorn").then(function(response){
+    console.log(response.data);
+    $scope.data = response.data;
+  }, function(response){
+    $scope.data = "Errors here";
+  });
+});
